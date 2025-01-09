@@ -19,4 +19,29 @@ This repository demonstrates setting up a Laravel project to send VOIP notificat
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/RanaMuhammadYar/laravel-voip-send-notification-to-apple-device.git
-cd laravel-voip-send-notification-to-apple-device
+cd laravel-voip-send-notification-to-apple-device 
+```
+
+### 2. **Install Dependencies**
+   
+``` bash
+     composer install
+```
+
+### 3. **Copy the .env File**
+   
+``` bash
+     cp .env.example .env
+```
+
+### 4. **Generate Application Key**
+   
+``` bash
+     php artisan key:generate
+```
+
+### 5. **Serve the Application**
+   
+``` bash
+     php artisan serve
+```
